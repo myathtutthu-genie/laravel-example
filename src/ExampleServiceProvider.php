@@ -2,9 +2,9 @@
 
 namespace Mht\Example;
 
+use Mht\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mht\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
